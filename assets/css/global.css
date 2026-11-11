@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+    /* Cores */
+    --color-background-main: #0b0f19;
+    --color-background-card: #111827;
+    --color-background-elevated: #1b2433;
+
+    --color-brand-primary: #0d6efd;
+    --color-brand-hover: #3d8bfd;
+
+    --color-text-primary: #f8fafc;
+    --color-text-secondary: #a8b8d0;
+    --color-border-default: #263449;
+
+    /* Tipografia */
+    --font-family-base: "Inter", sans-serif;
+
+    --font-size-banner-title: 48px;
+    --font-size-section-title: 28px;
+    --font-size-product-name: 16px;
+    --font-size-price: 22px;
+    --font-size-body: 14px;
+
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --line-height-banner-title: 1.17;
+    --line-height-section-title: 1.29;
+
+    /* Espaçamentos — múltiplos de 8px */
+    --spacing-1: 8px;
+    --spacing-2: 16px;
+    --spacing-3: 24px;
+    --spacing-4: 32px;
+    --spacing-5: 48px;
+    --spacing-6: 64px;
+
+    /* Botões */
+    --button-padding-block: 14px;
+    --button-padding-inline: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-background-main);
+    font-family: var(--font-family-base);
+    color: var(--color-text-primary);
+
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+
+}
